@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Conteiner = styled.div`
+const Container = styled.div`
   max-width: 700px;
   background: #fff;
   border-radius: 4px;
@@ -13,11 +13,11 @@ const Conteiner = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
 
-  svg {
-    margin-right: 10px;
+    svg {
+      margin-right: 10px;
+    }
   }
 `;
 
-export default Conteiner;
+export default Container;
